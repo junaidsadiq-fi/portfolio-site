@@ -116,7 +116,7 @@ export const PROJECTS: IProject[] = [
     url: "https://smartdigitalised.vercel.app/",
     tech: ["React", "next", "javascript"],
   },
-  {
+/*   {
     name: "Flow - Green Energy Website",
     image: "/projects/flow.jpeg",
     blurImage: "/projects/blur/huminos-blur.jpg",
@@ -124,7 +124,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#141517", "#693"],
     url: "https://bots.huminos.com/",
     tech: ["javascript", "next", "sanity"],
-  },
+  }, */
   {
     name: "Coffee App",
     image: "/projects/koffeeApp.png",
