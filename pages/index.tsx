@@ -1,8 +1,7 @@
-
-
 import { METADATA } from "../constants";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -71,6 +70,7 @@ export default function Home() {
       </Head>
       <Layout>
         <Header />
+        <Analytics />
         <ProgressIndicator />
         <Cursor isDesktop={isDesktop} />
         <main className="flex-col flex">

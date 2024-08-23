@@ -3,6 +3,7 @@
 import Head from "next/head";
 import { METADATA } from "../../constants";
 
+
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
