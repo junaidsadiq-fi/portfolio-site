@@ -1,7 +1,7 @@
 
 ## PortFOLIO
 
-<!-- [Live Demo](https://junaid sadiqsingh.co.in/) -->
+<!-- [Live Demo](https://junaidsadiq.vercel.app/) -->
 
 ## How to run on local?
 
