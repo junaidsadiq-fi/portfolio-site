@@ -39,14 +39,8 @@ export const EMAIL = "junaid.sadiq009@gmail.com";
 
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/mjunaid-sadiq/",
-  github: "https://github.com/junaidsadiq-fi",
+  github: "https://github.com/Junaid-sadiq",
   twitter: "https://twitter.com/junaid_sadiq1122",
-  /* facebook: "https://www.facebook.com/junaid sadiq013", */
-  /* medium: "https://alphajunaid sadiq.medium.com/",
-  instagram: "https://www.instagram.com/alphajunaid sadiq/",
-  dribbble: "https://dribbble.com/alphajunaid sadiq",
-  behance: "https://www.behance.net/alphajunaid sadiq/",
-  topmate: "https://www.topmate.io/alphajunaid sadiq/", */
 };
 
 export interface IProject {
@@ -69,6 +63,15 @@ export const PROJECTS: IProject[] = [
     gradient: ["#1F6582", "#1ABCFE"],
     url: "http://telefonopiu.org/",
     tech: ["typescript", "next", "tailwind"],
+  },
+  {
+    name: "Cloud Native Monioring App",
+    image: "/projects/cloudMonitoring.png",
+    blurImage: "/projects/blur/myokr-blur.jpg",
+    description: "Cloud Monitoring App built with Flask and Next.js, utilizing Shadcn for real-time system monitoring and run on AWS EKS & AWS ECS for scalable and efficient deployment.",
+    gradient: ["#0a0a0", "#000"],
+    url: "https://github.com/Junaid-sadiq/Cloud-Monitoring-App",
+    tech: ["aws", "next", "python"],
   },
   {
     name: "Onic - Blockchain dashboard",
