@@ -68,7 +68,7 @@ export const PROJECTS: IProject[] = [
     name: "Cloud Native Monioring App",
     image: "/projects/cloudMonitoring.png",
     blurImage: "/projects/blur/myokr-blur.jpg",
-    description: "Cloud Monitoring App built with Flask and Next.js, utilizing Shadcn for real-time system monitoring and run on AWS EKS & AWS ECS for scalable and efficient deployment.",
+    description: "Cloud Monitoring App built with Flask and Next.js for real-time system monitoring and run on AWS EKS & AWS ECS for scalable and efficient deployment.",
     gradient: ["#0a0a0", "#000"],
     url: "https://github.com/Junaid-sadiq/Cloud-Monitoring-App",
     tech: ["aws", "next", "python"],
